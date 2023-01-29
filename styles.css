@@ -1,0 +1,38 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1200px;
+}
+.container1{
+    display: flex;
+}
+.tab{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 7px 10px;
+    border-bottom: 5px solid rgb(255,109,50);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tab-box{
+    font-size: 14px;
+    line-height: 21px;
+    width: 1200px;
+    padding: 20px 40px;
+    color: white;
+}
+.tab-box h4{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.tab-box:nth-child(1){
+    background-color: lightcoral;
+}
+.tab-box:nth-child(2){
+    background-color: blueviolet;
+}
